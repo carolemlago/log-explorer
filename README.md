@@ -5,6 +5,9 @@
 Transform natural language into Datadog Log Search and DDSQL queries, execute Log Search queries against your Datadog instance, and decode complex queries back to plain English—all enhanced with context from your indexed documentation.
 
 
+https://github.com/user-attachments/assets/45f77478-ebcc-494b-9c6f-7c98ba87b7ad
+
+
 ---
 
 ## Features
