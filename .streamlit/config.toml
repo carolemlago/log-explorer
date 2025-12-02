@@ -1,0 +1,16 @@
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+[client]
+toolbarMode = "auto"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+enableWebsocketCompression = false
+enableXsrfProtection = false
+
+[theme]
+base = "dark"

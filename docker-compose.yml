@@ -1,0 +1,22 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: log-explorer-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/app
+      - qdrant-data:/data/qdrant
+    env_file:
+      - .env
+    networks:
+      - log-explorer-network
+
+volumes:
+  qdrant-data:
+
+networks:
+  log-explorer-network:
+    name: log-explorer-network
